@@ -5,6 +5,10 @@
   "repository": "ssh://git@github.com/ara-ta3/swagger-getting-started.git",
   "author": "ara-ta3",
   "license": "MIT",
+  "scripts": {
+      "ver2": "dredd ./ver2.yaml http://localhost:8080",
+      "ver3": "dredd ./ver3.yaml http://localhost:8080"
+  },
   "dependencies": {
     "dredd": "^8.0.5",
     "express": "^4.16.4"

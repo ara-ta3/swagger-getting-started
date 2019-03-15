@@ -1,0 +1,28 @@
+openapi: 3.0.2
+info:
+  title: openapi 3.0.2
+  version: 1.0.0
+paths:
+  /:
+    get:
+      responses:
+        '200':
+          description: sample response
+          content:
+            application/json; charset=utf-8:
+              schema:
+                $ref: '#/components/schemas/User'
+
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        i:
+          type: integer
+        name:
+          type: string
+      example:
+        i: 1
+        name: "hoge"
