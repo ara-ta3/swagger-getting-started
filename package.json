@@ -6,8 +6,8 @@
   "author": "ara-ta3",
   "license": "MIT",
   "scripts": {
-      "ver2": "dredd ./ver2.yaml http://localhost:8080",
-      "ver3": "dredd ./ver3.yaml http://localhost:8080"
+    "ver2": "dredd ./ver2.yaml http://localhost:8080",
+    "ver3": "dredd ./ver3.yaml http://localhost:8080"
   },
   "dependencies": {
     "dredd": "^8.0.5",
